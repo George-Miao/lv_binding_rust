@@ -173,7 +173,7 @@ fn main() {
         vendor.to_str().unwrap(),
         "-fvisibility=default",
         "-I",
-        "/nix/store/84p0q0k6lr4vfkapnzb6d6w2zcpwmsck-esp-rs/include/"
+        "/nix/store/84p0q0k6lr4vfkapnzb6d6w2zcpwmsck-esp-rs/xtensa-esp-elf/include"
     ];
 
     // Set correct target triple for bindgen when cross-compiling
